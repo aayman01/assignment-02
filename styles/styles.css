@@ -12,21 +12,22 @@ body {
     color: #FF5400;
 }
 
-.description{
+.description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
 
 }
-.btn-primary{
-    color:  #FFF; 
-    font-size: 20px; 
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
     font-weight: 800;
     border: none;
     border-radius: 8px;
     background: #FF5400;
     padding: 13px 34px;
-    
+
 }
 
 /* nav style */
@@ -71,7 +72,6 @@ nav {
 /* head style */
 
 header {
-    width: 81%;
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -94,19 +94,19 @@ header {
     width: 596px;
     padding-top: 105px;
     margin: 0 auto;
-  
+
 }
 
-.banner-description{
+.banner-description {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin-top: 24px ;
+    margin-top: 24px;
     margin-bottom: 48px;
 }
 
-.banner-input{
+.banner-input {
     display: flex;
     gap: 20px;
     border-radius: 8px;
@@ -118,31 +118,25 @@ header {
 
 /* main style */
 
-main{
-    width: 81%;
+main {
     max-width: 1170px;
     margin: 0 auto;
 }
 
 /* popular tour plan */
 
-/* .tour-plan-img img{
-    position: relative;
-    top: 35px;
-    
-} */
-.tour-plan{
+.tour-plan {
     display: flex;
     gap: 50px;
 }
 
-.tour-plan-title{
+.tour-plan-title {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
 }
 
-.tour-plan-conclusion{
+.tour-plan-conclusion {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -150,8 +144,160 @@ main{
     margin-bottom: 32px;
 }
 
+.tour-plan-img{
+    margin-bottom: 100px;
+}
+
 
 /* Choose Your Destination style */
+
+.destination-content{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.destination-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.first-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+
+.Maldives {
+    width: 570px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+}
+
+.Maldives p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 115px 222px;
+}
+
+.Indonesia{
+    width: 570px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+}
+
+.Indonesia p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 115px 222px;
+
+}
+
+.second-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.Kashmir{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+}
+
+.Kashmir p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 80px;
+}
+
+.North-America{
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+}
+
+.North-America p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 137px;
+}
+
+.Sri-Lanka{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+}
+
+.Sri-Lanka p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 125px 130px;
+}
+
+.third-grid{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.Bangladesh{
+    width: 473px;
+    height: 300px ;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+}
+
+.Bangladesh p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 133px 155px;
+}
+
+.Bandarban{
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+}
+
+.Bandarban p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 133px 260px;   
+}
+
+
+
 
 
 
@@ -160,14 +306,37 @@ main{
 /* response section */
 /* small devive */
 @media screen and (max-width:600px) {
-    
 
-    .tour-plan{
+    .item-container{
+        display: none;
+    }
+
+    .tour-plan {
         flex-direction: column;
         gap: 20px
     }
-    
-    .tour-plan-img img{
+
+    .tour-plan-img img {
         width: 100%;
     }
+    .first-grid, .second-grid, .third-grid{
+        grid: none;
+        gap: 16px;
+    }
+    .destination-container{
+        margin: 0 20px;
+    }
+    .Maldives,.Indonesia,.Kashmir,.North-America,.Sri-Lanka,.Bangladesh,.Bandarban{
+        width: 335px;
+        height: 176px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .Maldives p.Bandarban p{
+        position: relative;
+        bottom: 60px;
+    } 
+    /* ,.Indonesia p,.Kashmir p,.North-America p,.Sri-Lanka p,.Bangladesh p, */
+
 }
