@@ -108,13 +108,55 @@ header {
 
 .banner-input {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
-    max-width: 750px;
+    width: 750px;
     margin: 0 auto;
 }
+
+.where-go{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 16px 30px 16px 16px;
+}
+
+.when{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 16px 70px 16px 16px;
+}
+
+.type{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding: 16px 65px 16px 16px;
+}
+
+.banner-btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 16px 16px 10px;
+}
+
 
 /* main style */
 
@@ -296,6 +338,11 @@ main {
     padding: 133px 260px;   
 }
 
+/* footer style */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+
 
 
 
@@ -305,6 +352,7 @@ main {
 
 /* response section */
 /* small devive */
+
 @media screen and (max-width:600px) {
 
     .item-container{
