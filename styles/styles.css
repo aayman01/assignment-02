@@ -29,13 +29,18 @@ body {
     padding: 13px 34px;
 
 }
-
-/* nav style */
-
-.nav-container img {
+.icon {
     width: 47px;
     height: 56px;
 }
+
+.hide{
+    display: none;
+}
+
+/* nav style */
+
+
 
 .nav-container {
     display: flex;
@@ -212,10 +217,12 @@ main {
 }
 
 .Maldives {
-    width: 570px;
-    height: 300px;
+    width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background-position : center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Maldives p{
@@ -228,10 +235,12 @@ main {
 }
 
 .Indonesia{
-    width: 570px;
-    height: 300px;
+    width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+    background-position : center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Indonesia p{
@@ -252,10 +261,12 @@ main {
 }
 
 .Kashmir{
-    width: 274px;
-    height: 286px;
+    width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    background-position : center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Kashmir p{
@@ -268,10 +279,12 @@ main {
 }
 
 .North-America{
-    width: 474px;
-    height: 286px;
+    width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    background-position : center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .North-America p{
@@ -284,10 +297,12 @@ main {
 }
 
 .Sri-Lanka{
-    width: 374px;
-    height: 286px;
+    width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    background-position : center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Sri-Lanka p{
@@ -307,10 +322,12 @@ main {
 }
 
 .Bangladesh{
-    width: 473px;
-    height: 300px ;
+    width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    background-position : center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Bangladesh p{
@@ -323,10 +340,14 @@ main {
 }
 
 .Bandarban{
-    width: 673px;
-    height: 300px;
+    width: 100%;
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    background-position : center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
 }
 
 .Bandarban p{
@@ -339,52 +360,113 @@ main {
 }
 
 /* footer style */
+
 footer{
     background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
 }
 
+.footer-title{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
 
+.footer-title h3{
+    font-size: 32px;
+    font-family: 800;
+}
+.footer-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-content {
+    padding-top: 110px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
 
+hr{
+    width: 80%;
+}
+.footer-bottom{
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+.footer-bottom{
+    text-align: center;
+}
 
+.social{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.social a{
+    color: black;
+}
 
 
 /* response section */
 /* small devive */
 
 @media screen and (max-width:600px) {
-
+    
+    .hide{
+        display: none;
+    }
+    header{
+        margin: 10px;
+    }
+    .banner-title{
+        width: auto;
+        font-size: 22px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 40px 
+    }
+    .banner-input{
+        flex-direction: column;
+        width: auto;
+        padding: 16px;
+        margin: 0 15px;
+    }
     .item-container{
         display: none;
     }
 
     .tour-plan {
         flex-direction: column;
-        gap: 20px
+        gap: 20px;
+        margin: 10px;
+
     }
 
     .tour-plan-img img {
-        width: 100%;
+        width: 90%;
     }
     .first-grid, .second-grid, .third-grid{
         grid: none;
         gap: 16px;
     }
     .destination-container{
-        margin: 0 20px;
+        width: 100%;
+        margin: 0 auto;
     }
     .Maldives,.Indonesia,.Kashmir,.North-America,.Sri-Lanka,.Bangladesh,.Bandarban{
-        width: 335px;
-        height: 176px;
+        /* width: 100%; */
+        /* height: 100%; */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-    .Maldives p.Bandarban p{
-        position: relative;
-        bottom: 60px;
-    } 
-    /* ,.Indonesia p,.Kashmir p,.North-America p,.Sri-Lanka p,.Bangladesh p, */
+    
 
 }
