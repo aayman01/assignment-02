@@ -29,14 +29,6 @@ body {
     padding: 13px 34px;
 
 }
-.icon {
-    width: 47px;
-    height: 56px;
-}
-
-.hide{
-    display: none;
-}
 
 .primary-title{
     color: #131318;
@@ -250,6 +242,73 @@ main {
 
 }
 
+.destination-container{
+    margin-bottom: 100px;
+
+}
+
+/* why you choose us */
+
+.chosse-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.choose-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.chosse-content{
+    text-align: center;
+}
+
+.card-container01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.card-container02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.card-1{
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card-2{
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card-3{
+    /* width: 430px; */
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.card-description{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
 /* news letter section */
 
 .news-letter{
@@ -361,8 +420,6 @@ hr{
     justify-content: center;
     align-items: center;
     padding: 0;
-    /* padding-left: 335px;
-    padding-right: 335px; */
 }
 
 .social a{
@@ -398,7 +455,6 @@ hr{
         display: none;
     }
 
-
     .tour-plan {
         flex-direction: column;
         gap: 20px;
@@ -424,7 +480,7 @@ hr{
         width: 100%;
     }
     
-    .news-letter{
+    .news-letter,.card-container01{
         flex-direction: column;
     }
     .news-letter-img img{
