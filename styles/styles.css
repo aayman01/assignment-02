@@ -14,14 +14,14 @@ body {
 
 .description {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 
 }
 
 .btn-primary {
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.13rem;
     font-weight: 800;
     border: none;
     border-radius: 8px;
@@ -36,6 +36,12 @@ body {
 
 .hide{
     display: none;
+}
+
+.primary-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 /* nav style */
@@ -94,7 +100,7 @@ header {
 
 .banner-title {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     width: 596px;
     padding-top: 105px;
@@ -104,7 +110,7 @@ header {
 
 .banner-description {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     margin-top: 24px;
@@ -123,7 +129,7 @@ header {
 
 .where-go{
     color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
     background: #FFF;
@@ -133,7 +139,7 @@ header {
 
 .when{
     color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
     background: #FFF;
@@ -143,7 +149,7 @@ header {
 
 .type{
     color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
     background: #FFF;
@@ -154,7 +160,7 @@ header {
 .banner-btn{
     color: #FFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     border: none;
     border-radius: 8px;
@@ -185,7 +191,7 @@ main {
 
 .tour-plan-conclusion {
     color: #5A5A5D;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 32px;
@@ -204,53 +210,29 @@ main {
 }
 .destination-title{
     color: #131318;
-    font-family: Mulish;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.first-grid {
+
+.first-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2 , 1fr);
     gap: 24px;
-
 }
-
-.Maldives {
+.maldives , .indonesia, .Kashmir, .North-America, .Sri-Lanka, .Bangladesh, .Bandarban{
     width: 100%;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
-    background-position : center ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
 }
-
-.Maldives p{
+.name{
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
-    padding: 115px 222px;
-}
-
-.Indonesia{
-    width: 100%;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
-    background-position : center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Indonesia p{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    padding: 115px 222px;
-
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .second-grid{
@@ -260,103 +242,74 @@ main {
     margin-top: 24px;
 }
 
-.Kashmir{
-    width: 100%;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
-    background-position : center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Kashmir p{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    padding: 125px 80px;
-}
-
-.North-America{
-    width: 100%;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
-    background-position : center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.North-America p{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    padding: 125px 137px;
-}
-
-.Sri-Lanka{
-    width: 100%;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
-    background-position : center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Sri-Lanka p{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    padding: 125px 130px;
-}
-
 .third-grid{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     gap: 24px;
     margin-top: 24px;
+
 }
 
-.Bangladesh{
-    width: 100%;
+/* news letter section */
+
+.news-letter{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
-    background-position : center ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    border: 1px solid #FF5400;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 16px;
+    height: 424px;
 }
 
-.Bangladesh p{
+.news-letter-title{
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.name-input , .email-input {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding : 16px 51px 16px 20px;
+}
+
+.news-letter-img{
+    position: relative;
+}
+.img-tag{
     color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    padding: 133px 155px;
-}
-
-.Bandarban{
-    width: 100%;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
-    background-position : center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    
+    background: #FF5400;
+    width: 324px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    bottom: 70px;
+    transform: rotate(-19.628deg);
 }
 
-.Bandarban p{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
+.img-tag h2{
+    font-size: 2rem;
     font-weight: 800;
-    padding: 133px 260px;   
+    margin: 0;
+}
+.img-tag p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
 }
 
 /* footer style */
@@ -376,7 +329,7 @@ footer{
     font-size: 32px;
     font-family: 800;
 }
-.footer-description{
+.footer-description, .login-form >p {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -407,6 +360,9 @@ hr{
     gap: 20px;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    /* padding-left: 335px;
+    padding-right: 335px; */
 }
 
 .social a{
@@ -452,21 +408,35 @@ hr{
     .tour-plan-img img {
         width: 90%;
     }
+    
     .first-grid, .second-grid, .third-grid{
-        grid: none;
-        gap: 16px;
+        grid-template-columns: 1fr;
     }
-    .destination-container{
+
+    .maldives img , .indonesia img, .Kashmir img, .North-America img, .Sri-Lanka img, .Bangladesh img, .Bandarban img{
         width: 100%;
-        margin: 0 auto;
-    }
-    .Maldives,.Indonesia,.Kashmir,.North-America,.Sri-Lanka,.Bangladesh,.Bandarban{
-        /* width: 100%; */
-        /* height: 100%; */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
     }
     
-
+    .news-letter{
+        flex-direction: column;
+    }
+    .news-letter-img img{
+        width: 100%
+    }
+    .img-tag{
+        border-radius: 10px;
+        width: 214px;
+        padding: 20px;
+        text-align: center;
+        position: absolute;
+        right: 5px;
+        bottom: 50px;
+    }
+    .img-tag h2{
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+    .img-tag p{
+        font-size: 1rem;
+    }
 }
